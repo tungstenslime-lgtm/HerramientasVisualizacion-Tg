@@ -1,4 +1,6 @@
 .streamlit/secrets.toml
+token.txt
+respuesta.json
 __pycache__/
 *.pyc
 .venv/
