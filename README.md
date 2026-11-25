@@ -20,14 +20,6 @@ pip install -r requirements.txt
 streamlit run dashboard_coingecko.py
 ```
 
-El token de CoinGecko **no va en el repo**. Ponelo en
-`.streamlit/secrets.toml` como `coingecko_token = "tu-token"` o en la
-variable `COINGECKO_API_KEY`. Sin token, el dashboard usa
-`datos_limpios.csv`. Nunca subas `token.txt`, `respuesta.json` ni
-`secrets.toml` (están en `.gitignore`).
-
----
-
 # HerramientasVisualizacion — Tablero del SIE de Banxico (modificado)
 
 Repositorio propio a partir del repo base del docente:
